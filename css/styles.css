@@ -2,4 +2,20 @@ body{
     background-image: url('../images/pizza-neon-light-signage-1596888.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    color: aliceblue;
 }
+.jumbotron{
+    opacity: 0.4;
+    background-color: #CC4C4C;
+}
+.hide{
+    display: none;
+}
+.card{
+    margin: 10px 0;
+    position: relative;
+    overflow: hidden;
+    border: none;
+}
+
+
