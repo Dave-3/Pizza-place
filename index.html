@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Place</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <form action="">
+                    <label for="size">Size</label><br>
+                    <select id="size" name="size">
+                        <label for="small">Small</label><br>
+                        <option value="small">Small<span class="price">$4</span> </option>
+                        <label for="medium">Medium</label><br>
+                        <option value="medium">Medium<span class="price">$7</span> </option><br>
+                        <label for="large">Large</label><br>
+                        <option value="large">Large<span class="price">$10</span></option>
+                    </select><br>
+                    <label for="toppings">Toppings :</label>
+                    <select id="toppings" name="toppings">
+                        <option value="Pepperoni">Pepperoni<span class="price">$2</span></option>
+                        <option value="Mushrooms">Mushrooms<span class="price">$2</span></option>
+                        <option value="Onions">Onions<span class="price">$2</span></option>
+                        <option value="Sausage">Sausage<span class="price">$2</span></option>
+                        <option value="Bacon">Bacon<span class="price">$2</span></option>
+                        <option value="Extra cheese">Extra cheese<span class="price">$2</span></option>
+                        <option value="Black olives">Black olives<span class="price">$2</span></option>
+                        <option value="Green peppers">Green peppers<span class="price">$2</span></option>
+                    </select><br>
+                    <label for="crusts">Crusts :</label>
+                    <select id="crusts" name="crusts">
+                        <option value="Thin">Thin<span class="price">$2</span> </option>
+                        <option value="Thick">Thick<span class="price">$4</span> </option>
+                        <option value="Cheese-filled">Cheese-filled<span class="price">$4</span></option>
+                        <option value="Deep">Deep<span class="price">$3</span></option>
+                        <option value="stuffed">stuffed<span class="price">$5</span></option>
+                    </select>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div> 
+    </div>
+    <section class="container content-section">
+        <h2 class="section-header">CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">$0</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+    </section>
+</body>
+</html>
