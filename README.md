@@ -18,7 +18,7 @@ A pizza ordering place where you chose from a variety of pizzas and you can eith
 ## BDD
 The user enters the pizza size , toppings, and crust through a form and receives feedback that their order has been placed.
 ## Link to Github pages
-
+https://dave-3.github.io/Pizza-place/
 ### License
 *{MIT License.}*
 Copyright (c) {2020} **{David Njenga Mburu}**
